@@ -1,0 +1,13 @@
+[requires]
+nlohmann_json/3.11.2
+boost/1.67.0
+
+[options]
+boost/*:without_context=True      # Важно: формат "пакет/*:опция=значение"
+boost/*:without_coroutine=True
+boost/*:without_fiber=True
+boost/*:without_stacktrace=True
+
+[generators]
+CMakeDeps
+CMakeToolchain

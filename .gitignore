@@ -1,0 +1,39 @@
+
+# Общие игнорируемые файлы
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*~
+\#*\#
+
+# Сборка (CMake)
+build/
+
+# Исполняемые файлы
+*.exe
+*.out
+
+# Объектные файлы
+*.o
+*.obj
+
+# Библиотеки
+*.lib
+*.a
+*.dylib
+*.so
+
+# Отладочная информация
+*.pdb
+*.dSYM/
+
+# VS Code
+.vscode/
+
+# Игнорировать логи
+*.log
+
+# Doxygen
+docs/html/
+docs/latex/

@@ -1,0 +1,9 @@
+{
+    "port": 1234,
+    "log_path": "server.log",
+    "median_window_x": 5,
+    "median_window_y": 3,
+    "gaussian_sigma_x": 1.2,
+    "gaussian_sigma_y": 0.8,
+    "moving_window": 10
+}
